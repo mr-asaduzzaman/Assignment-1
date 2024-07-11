@@ -1,3 +1,13 @@
+
+.azeret-mono-normal {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
