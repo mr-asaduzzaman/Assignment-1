@@ -8,11 +8,37 @@
 
 
 
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Azeret Mono", monospace;
+    background-color: #ffffff;
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5;
+    text-align: center;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.header {
+    background-color: #ffffff;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+.header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #333;
+}
+
+
+
+body {
+    font-family: "Azeret Mono", monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
 }
 
 header {
@@ -81,10 +107,10 @@ button {
 
 .section {
     background-color: #ffffff;
-    margin: 20px 0;
-    padding: 20px;
+    margin: 0px 0;
+    padding: 20px 70px;
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
 }
@@ -108,10 +134,15 @@ button {
     color: #000000;
     padding: 10px 20px;
     text-decoration: none;
-   border: 1px solid black;
+    border: 1px solid black;
 }
 .section .btn:hover {
-    background-color: #0056b3;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 15px;
 }
 
 
@@ -127,7 +158,6 @@ button {
     padding: 50px;
     margin: 50px;
     background-color: #fcf5f4;
-
     border-radius: 10px;
     text-align: left;
 }
@@ -137,7 +167,6 @@ button {
     padding: 50px;
     margin: 50px;
     background-color: #f5f9ff;
-
     border-radius: 10px;
     text-align: left;
 }
@@ -146,7 +175,6 @@ button {
     padding: 50px;
     margin: 50px;
     background-color: #fffced;
-
     border-radius: 10px;
     text-align: left;
 }
@@ -156,7 +184,6 @@ button {
     align-items: center;
     background-image: url(../assets/handshake.jpg);
     background-size: cover;
-    
     width: 100%;
     height: 300px;
     border-radius: 15px;
@@ -203,25 +230,3 @@ footer .social-media {
 
 
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #ffffff;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
-.header {
-    background-color: #ffffff;
-    padding: 20px 0;
-    margin-bottom: 20px;
-}
-.header h1 {
-    margin: 0;
-    font-size: 2em;
-    color: #333;
-}
